@@ -1,0 +1,25 @@
+ghostlock-pd2118c — PD2118 temporary root
+Copyright 2026 the ghostlock-pd2118c contributors
+
+This product includes software developed by the following projects:
+
+  * IonStack/CVE-2026-43499, by NebuSec / CyberMeowfia
+    https://github.com/NebuSec/CyberMeowfia   (Apache-2.0)
+    Original futex-PI-UAF exploit, from which this port is derived.
+
+  * yijiacloud/ghostlock-cve-2026-43499-4.19-k40
+    (Apache-2.0)
+    4.19 kernel adaptation (configfs/ashmem primitives, KernelSnitch)
+    that this port is based on.
+
+  * KernelSU  (GPL-3.0)  https://github.com/tiann/KernelSU
+    The manager and kernel module are NOT redistributed as source in this
+    repository; tools/ contains only patch/repack helpers written for this port.
+
+  * The Linux kernel  (GPL-2.0)  https://www.kernel.org/
+    Header-derived constants and syscall behaviour are used; no kernel source
+    is included.
+
+The Apache License 2.0 text is in LICENSE. The above projects retain their
+respective copyrights and licences; this repository only covers the original
+adaptation work described in its documentation.
