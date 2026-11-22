@@ -1,4 +1,4 @@
-# ghostlock-pd2118c — PD2118 临时 root（可复现实现）
+# GhostLock Root5 — iQOO Neo5 / PD2118C 临时 root（可复现实现）
 
 CVE-2026-43499（futex PI UAF）在 **iQOO Neo5 活力版 / PD2118 / V2118A**、
 内核 `4.19.152-perf+`、固件 `PD2118_A_9.5.3` 上的完整实现。
