@@ -99,7 +99,3 @@ adb shell '/data/local/tmp/su -c id'
 - 建议先 `adb reboot` 再跑；跑完尽快重启，避免系统长时间在不稳定状态运行。
 - 模块来自 PD2055 的预编译产物，靠 koreloc 按当次 KASLR 重定位；上游未提供其源码。
 - 仅用于自己拥有设备上的安全研究，不提供任何担保。
-
-## 许可
-
-Apache-2.0，见 `LICENSE`；上游归属见 `NOTICE`。
