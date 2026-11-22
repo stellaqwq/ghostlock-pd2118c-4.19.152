@@ -39,9 +39,6 @@ avc_has_perm @0x4a3440
 （等价 per-task permissive）。上面那三堵墙全部是 AVC 拒绝，一个位全绕。
 本仓库的 ROOT5 路径就是照这个事实写的，详见 `docs/02-root5.md`。
 
-另外，本仓库的 `target.h` 用反汇编修正了 PI 字段偏移（`pi_lock@0x8d4`、
-`pi_waiters@0x8e0`、`pi_blocked_on@0x8f8`），与那份实现里的旧值
-（`0x8b4/0x8c0/0x8d8`）不同 —— 这是链走不通的直接原因之一。
 
 ## 目录
 
